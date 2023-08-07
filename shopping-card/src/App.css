@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.urunler {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 200px;
+  margin-right: 25px;
+}
+
+body {
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+.sepet {
+  border: 2.5px solid white;
+  border-radius: 15px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 7px 0px 20px 0px rgba(97,97,97,1);
+}
+
+.sepet > h3 {
+  margin: 15px;
+}

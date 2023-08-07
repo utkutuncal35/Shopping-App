@@ -1,0 +1,16 @@
+.card {
+    box-sizing: border-box;
+    height: fit-content;
+    padding: 10px;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    border-radius: 10px ;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(161, 4, 4, 0.694);
+
+}
